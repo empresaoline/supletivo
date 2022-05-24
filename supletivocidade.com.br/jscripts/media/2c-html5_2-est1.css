@@ -1,0 +1,251 @@
+
+/*#media_device{display: none;}*/
+
+/**************************/
+@media (max-width: 1024px) {
+
+body {max-width:100%; min-width:100%;}
+
+/* Menu Horizontal */
+.container .grid2, #titulo, .container .grid3_1, .container .grid3_2, .container .grid3_3, #menu {visibility:hidden; display: none;}
+
+/* Geral */
+.container .grid5 img, .container .grid6 img {max-width: 96%; height: auto; width: expression(this.width > 96% ? 96%: true);}
+
+}
+
+
+/**************************/
+@media (max-width: 999px) {
+
+#media_device{
+        display: block !important;
+        position:fixed;
+        z-index:9999999;
+        top:0px;
+        left:0px;
+        right:0px;
+        height:30px;
+        width: 100%;
+        margin:auto;
+        background:#272525;
+	background: -moz-linear-gradient(#333, #111);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #333));
+	background: -webkit-linear-gradient(#333, #111);
+	background: -o-linear-gradient(#333, #111);
+	background: -ms-linear-gradient(#333, #111);
+	background: linear-gradient(#333, #111);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#111111');
+	background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
+	background: -moz-linear-gradient(top,  #333,  #111);
+	-moz-box-shadow: 0 0 10px #000; -webkit-box-shadow: 0 0 10px #000; box-shadow: 0 10px 10px -6px #111;
+}
+
+#media_device table{
+    	border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#media_device a, #media_device a:visited{
+	color: #69f;
+	font-size:12px;
+	position:relative;
+	text-decoration:none;
+}
+
+#media_device a:hover, #media_device a:active{
+        color: #fff;
+}
+
+#media_device #center-title{
+	color: #ddd;
+        font-size:14px;
+}
+
+#left-column{
+	float:left;
+	margin-left:15px;
+	background: url(../../../est.no.comunidades.net/images/left-column.png) center left no-repeat;
+	padding-left: 30px;
+}
+
+#center-title{
+        float:right;
+        margin-right:15px;
+}
+
+#right-column{
+	float:right;
+        margin-right:15px;
+        background: url(../../../est.no.comunidades.net/images/right-column.png) center left no-repeat;
+        padding-left: 27px;
+}
+
+/* Pub Topo */
+#pub-topo{
+	padding:10px 10px 0 10px;
+}
+
+/* Coluna Esquerda */
+.container .grid5{
+        display:none;
+        position:absolute;
+        top:30px;
+        left:0px;
+        z-index:999999;
+        width:230px;
+        overflow-x:none;
+        overflow-y:auto;
+        margin:0px;
+        padding:15px 10px;
+        border:none;
+        background-color:#fff;
+	border-right:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        border-bottom-right-radius:10px; -moz-border-bottom-right-radius:10px; -webkit-border-bottom-right-radius:10px;
+}
+.graphite {padding:0px; background: #fff; border:none; -moz-border-radius:0px;border-radius:0px;-webkit-border-radius:0px;}
+.container .grid9 {padding:0px; background: #fff; border:none; -moz-border-radius:0px;border-radius:0px;-webkit-border-radius:0px;}
+
+}
+
+
+/*************************/
+@media (max-width: 767px) {
+
+body {
+	margin: 0 auto;
+	padding-top:30px !important;
+}
+
+#center-title{visibility:hidden; display: none;}#menu{padding:55px 0 0 0px;}
+
+/* Site */
+.container {width: 100%;}
+
+/* Header */
+.grid1 {background:none;}
+#header {height:0px;}
+
+/* Slide de Imagens */
+.container .grid4 {width:0px;margin: 0 auto; height:0px; padding:0px; visibility:hidden; display: none;}
+.nivoSlider img {max-width:0px;max-height:0px;border:none;visibility:hidden; display: none;}
+
+/* Conteudo do Site */
+content{width:100%;margin:0 auto;min-height:none;padding:0px;}
+.geral {background-image:none;}
+.main-section {padding:5px 0 0px 0; margin:0px auto;}
+
+/* Topo */
+.container .grid8 {width:100%; margin: 0 auto; padding:15px 0 0 0;}
+#topo {margin: 20px 0 0px 0;}
+
+/* Coluna da Direita */
+.container .grid6 {float:none; width:94%; margin: 0 auto; padding: 0px;}
+
+/* Footer */
+#footer {width:100%; padding:15px 0 10px 0;}
+.container .grid7 {width: 100%; margin: 0 auto; text-align:center;}
+
+}
+
+
+/*************************/
+@media (max-width: 241px) {
+#media_device a, #media_device a:visited{font-size:10px;}
+#left-column{margin-left:5px;padding-left: 26px;}
+#right-column{margin-right:5px;padding-left: 24px;}
+.container p {text-align: left;}
+}
+
+
+/*************************/
+@media (max-width: 321px) {
+.container .grid6 {width: 92%;}
+.form-all-td table {float:left;}
+}
+
+
+/*************************/
+@media (max-width: 390px) {
+textarea{width:80%; max-width:90%;}
+input[type="button"], input[type="submit"], button {margin-left:-100px;}
+.fb-comments span, .fb-comments iframe span[style] {visibility:hidden !important; display:none !important; width:0px !important;}
+}
+
+
+/*************************************************/
+@media (min-width: 768px) and (max-width: 999px) {
+
+body {
+        margin: 0 auto;
+        padding-top:30px !important;
+}
+
+/* Site */
+.container {width: 100%;}
+
+/* Header */
+#header {height:0px;}
+
+/* Slide de Imagens */
+.container .grid4 {height:200px; width:98%; margin:0 auto; padding-top:10px;}
+.nivoSlider img {max-height:200px; width:98%; background-size:100% 100%;}
+
+/* Conteudo do Site */
+#content{width:100%;margin-top:-50px;min-height:100px;padding: 40px 0 0px 0;}
+.geral {background-size:100% 80px;}
+.main-section {padding:5px 0 20px 0; margin:0px auto;}
+
+/* Topo */
+.container .grid8 {width:100%; margin: 0 auto; padding:0px;}
+#topo {margin: 20px 0 0px 0;}
+
+/* Coluna da Direita */
+.container .grid6 {float:none; width:96%; margin: 0 auto; padding: 0px;}
+
+/* Footer */
+#footer {width:100%; padding:20px 0 15px 0;}
+.container .grid7 {width: 100%; margin: 0 auto; text-align:center;}
+
+}
+
+
+/*************************************************/
+@media (min-width: 1000px) and (max-width: 1024px) {
+
+/* Site */
+.container {width: 980px;}
+
+/* Header */
+#header {height:0px;}
+
+/* Slide de Imagens */
+.container .grid4 {height:245px; width:980px; margin:0 auto; padding-top:15px;}
+.nivoSlider img {max-height:245px; width:980px; background-size:100% 100%;}
+
+/* Conteudo do Site */
+#content{width:100%;margin-top:-40px;min-height:100px;padding: 40px 0 10px 0;}
+.geral {background-size:100% 90px;}
+.main-section {padding:10px 0 20px 0; margin:0px auto;}
+
+/* Topo */
+.container .grid8 {width:980px; margin: 0 auto; padding:0px;}
+#topo {margin: 20px 0 10px 0;}
+
+/* Coluna da Esquerda */
+.container .grid5 {width: 250px; padding-left:0px;}
+.container .grid9 {padding:10px;}
+
+/* Coluna da Direita */
+.container .grid6 {width:700px; margin-right:0px;}
+
+/* Footer */
+#footer {width:100%; padding:20px 0 15px 0;}
+.container .grid7 {width: 980px; margin: 0 auto; text-align:center;}
+
+}
